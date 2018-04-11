@@ -1,0 +1,87 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "As a user get the data",
+        "description": "",
+        "id": "get-request-cucumber-test;as-a-user-get-the-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 123518929,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "an accept type of \"application/json\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "application/json",
+                  "offset": 19
+                }
+              ],
+              "location": "ClientSteps.an_accept_type_of(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 212174,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user makes the request to get \"/posts\" get endpoint",
+            "match": {
+              "arguments": [
+                {
+                  "val": "/posts",
+                  "offset": 35
+                }
+              ],
+              "location": "ClientSteps.the_user_makes_the_request_to_get_get_endpoint(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\n\tat com.karlin.testing.acceptance.test.glue.steps.ClientSteps.api_should_return_response(ClientSteps.java:51)\n\tat ✽.API should return \"200\" response(src/test/resources/features/gettestcase.feature:6)\n",
+              "duration": 834960,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "API should return \"200\" response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 19
+                }
+              ],
+              "location": "ClientSteps.api_should_return_response(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "the API should return a \"application/json\" media type",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "get request cucumber test",
+    "description": "",
+    "id": "get-request-cucumber-test",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/gettestcase.feature",
+    "tags": []
+  }
+]
