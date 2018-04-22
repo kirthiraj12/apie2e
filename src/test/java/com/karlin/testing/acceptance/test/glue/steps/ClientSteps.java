@@ -42,7 +42,7 @@ public class ClientSteps {
 
     @When("^the user makes the request to get \"([^\"]*)\" get endpoint$")
     public void the_user_makes_the_request_to_get_get_endpoint(String arg1) throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
+            // Write code here that turns the phrase above into concrete actions
 
     }
 

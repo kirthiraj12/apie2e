@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 123518929,
+              "duration": 121805323,
               "status": "passed"
             },
             "line": 4,
@@ -30,7 +30,7 @@
           },
           {
             "result": {
-              "duration": 212174,
+              "duration": 185023,
               "status": "passed"
             },
             "line": 5,
@@ -49,7 +49,7 @@
           {
             "result": {
               "error_message": "java.lang.NullPointerException\n\tat com.karlin.testing.acceptance.test.glue.steps.ClientSteps.api_should_return_response(ClientSteps.java:51)\n\tat ✽.API should return \"200\" response(src/test/resources/features/gettestcase.feature:6)\n",
-              "duration": 834960,
+              "duration": 765170,
               "status": "failed"
             },
             "line": 6,
