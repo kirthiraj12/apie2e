@@ -11,10 +11,10 @@ public class ClientFactory {
 
     //private String baseuri;
 
-    private String baseuri = "https://jsonplaceholder.typicode.com";
 
     public void setBaseUri(ClientSpecification specification) {
-        specification.withBaseUri(baseuri);
+            String baseuri = "https://jsonplaceholder.typicode.com";
+            specification.withBaseUri(baseuri);
     }
 
     public Client getClientFor(ClientSpecification specification) {

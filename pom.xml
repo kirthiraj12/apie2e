@@ -92,31 +92,33 @@
               <artifactId>spring-context</artifactId>
               <version>5.0.5.RELEASE</version>
           </dependency>
-
-          <!-- https://mvnrepository.com/artifact/org.glassfish.jersey.core/jersey-common -->
           <dependency>
               <groupId>org.glassfish.jersey.core</groupId>
               <artifactId>jersey-common</artifactId>
-              <version>2.27</version>
+              <version>2.26</version>
           </dependency>
 
-          <!-- https://mvnrepository.com/artifact/com.sun.jersey/jersey-client -->
+
+          <!-- https://mvnrepository.com/artifact/org.glassfish.jersey.core/jersey-client -->
           <dependency>
-              <groupId>com.sun.jersey</groupId>
+              <groupId>org.glassfish.jersey.core</groupId>
               <artifactId>jersey-client</artifactId>
-              <version>1.19.4</version>
+              <version>2.26</version>
           </dependency>
 
-          <!-- https://mvnrepository.com/artifact/org.glassfish.jersey.inject/project -->
+          <!-- https://mvnrepository.com/artifact/javax.ws.rs/javax.ws.rs-api -->
+          <dependency>
+              <groupId>javax.ws.rs</groupId>
+              <artifactId>javax.ws.rs-api</artifactId>
+              <version>2.1</version>
+          </dependency>
+
+
           <dependency>
               <groupId>org.glassfish.jersey.inject</groupId>
-              <artifactId>project</artifactId>
-              <version>2.27</version>
-              <type>pom</type>
+              <artifactId>jersey-hk2</artifactId>
+              <version>2.26</version>
           </dependency>
-
-
-
 
           <dependency>
               <groupId>org.testng</groupId>
@@ -130,12 +132,122 @@
             <version>4.12</version>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>javax.ws.rs</groupId>
-            <artifactId>javax.ws.rs-api</artifactId>
-            <version>2.0</version>
-        </dependency>
+          <dependency>
+              <groupId>com.fasterxml.jackson.core</groupId>
+              <artifactId>jackson-databind</artifactId>
+              <version>2.8.8</version>
+              <scope>test</scope>
+          </dependency>
 
       </dependencies>
+
+
+
+    <profiles>
+        <profile>
+            <id>acceptance-profile</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>net.masterthought</groupId>
+                        <artifactId>maven-cucumber-reporting</artifactId>
+                        <version>3.16.0</version>
+                        <executions>
+                            <execution>
+                                <id>execution</id>
+                                <phase>verify</phase>
+                                <goals>
+                                    <goal>generate</goal>
+                                </goals>
+                                <configuration>
+                                    <projectName>Data-Exchange</projectName>
+                                    <outputDirectory>${project.build.directory}/reports</outputDirectory>
+                                    <jsonFiles>
+                                        <param>${project.build.directory}/reports/AcceptanceTestSuite.json</param>
+                                    </jsonFiles>
+                                    <parallelTesting>false</parallelTesting>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+        <profile>
+            <id>smoke-profile</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>net.masterthought</groupId>
+                        <artifactId>maven-cucumber-reporting</artifactId>
+                        <version>3.16.0</version>
+                        <executions>
+                            <execution>
+                                <id>execution</id>
+                                <phase>verify</phase>
+                                <goals>
+                                    <goal>generate</goal>
+                                </goals>
+                                <configuration>
+                                    <projectName>Data-Exchange</projectName>
+                                    <outputDirectory>${project.build.directory}/reports</outputDirectory>
+                                    <jsonFiles>
+                                        <param>${project.build.directory}/reports/SmokeTestSuite.json</param>
+                                    </jsonFiles>
+                                    <parallelTesting>false</parallelTesting>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+        <profile>
+            <id>perf-profile</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>com.lazerycode.jmeter</groupId>
+                        <artifactId>jmeter-maven-plugin</artifactId>
+                        <version>2.7.0</version>
+                        <executions>
+                            <!-- Run JMeter tests -->
+                            <execution>
+                                <id>jmeter-tests</id>
+                                <goals>
+                                    <goal>jmeter</goal>
+                                </goals>
+                            </execution>
+                            <!-- Fail build on errors in test -->
+                            <execution>
+                                <id>jmeter-check-results</id>
+                                <goals>
+                                    <goal>results</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                        <configuration>
+                            <testFilesIncluded>
+                                <jMeterTestFile>*Perf.jmx</jMeterTestFile>
+                            </testFilesIncluded>
+                            <propertiesUser>
+                                <ThreadCount>${threads}</ThreadCount>
+                                <LoopCount>${loop}</LoopCount>
+                                <RampUp>${rampup}</RampUp>
+                                <application_endpoint>${application.base.url}</application_endpoint>>
+                            </propertiesUser>
+                            <ignoreResultFailures>true</ignoreResultFailures>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+
+        </profile>
+
+
+    </profiles>
+
+
+
 
 </project>

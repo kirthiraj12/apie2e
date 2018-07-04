@@ -13,4 +13,7 @@ import org.junit.runner.RunWith;
 
 )
 public class GetTest extends AbstractTestNGCucumberTests {
+
+        public String baseuri = "https://jsonplaceholder.typicode.com";
+
 }
