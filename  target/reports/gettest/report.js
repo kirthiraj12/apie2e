@@ -34,18 +34,19 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "ClientSteps.api_should_return_response(String)"
+  "location": "ClientSteps.api_should_return_response(int)"
 });
 formatter.result({
-  "error_message": "java.lang.NullPointerException\n\tat com.karlin.testing.acceptance.test.glue.steps.ClientSteps.api_should_return_response(ClientSteps.java:51)\n\tat ✽.API should return \"200\" response(src/test/resources/features/gettestcase.feature:6)\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.step({
-  "name": "the API should return a \"application/json\" media type",
+  "name": "the API should return a \"application/json;charset\u003dutf-8\" media type",
   "keyword": "And "
 });
-formatter.match({});
+formatter.match({
+  "location": "ClientSteps.the_API_should_return_a_media_type(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 });
