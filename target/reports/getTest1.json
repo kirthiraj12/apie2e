@@ -1,0 +1,109 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "As a user get the data",
+        "description": "",
+        "id": "get-request-cucumber-test-acceptest2;as-a-user-get-the-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2176468,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "an accept type of \"application/json\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "application/json",
+                  "offset": 19
+                }
+              ],
+              "location": "ClientSteps.an_accept_type_of(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 108353181,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user makes the request to get \"/posts\" get endpoint",
+            "match": {
+              "arguments": [
+                {
+                  "val": "/posts",
+                  "offset": 35
+                }
+              ],
+              "location": "ClientSteps.the_user_makes_the_request_to_get_get_endpoint(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 544704,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "API should return \"200\" response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 19
+                }
+              ],
+              "location": "ClientSteps.api_should_return_response(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 433552,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the API should return a \"application/json;charset\u003dutf-8\" media type",
+            "match": {
+              "arguments": [
+                {
+                  "val": "application/json;charset\u003dutf-8",
+                  "offset": 25
+                }
+              ],
+              "location": "ClientSteps.the_API_should_return_a_media_type(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@acpttest"
+          }
+        ]
+      }
+    ],
+    "name": "get request cucumber test acceptest2",
+    "description": "",
+    "id": "get-request-cucumber-test-acceptest2",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/gettestcase1.feature",
+    "tags": [
+      {
+        "name": "@acpttest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

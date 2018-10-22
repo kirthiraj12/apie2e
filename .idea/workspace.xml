@@ -2,42 +2,240 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b67bf298-009a-4cfd-ad77-b4516c3e0704" name="Default" comment="Sample first commit">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_8.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_8.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_external_aopalliance_repackaged_2_5_0_b42.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_api_2_5_0_b42.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_locator_2_5_0_b42.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_utils_2_5_0_b42.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_client_2_26.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_inject_jersey_hk2_2_26.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_22_0_CR2.xml" />
-      <change beforePath="$PROJECT_DIR$/ target/reports/gettest/report.js" afterPath="$PROJECT_DIR$/ target/reports/gettest/report.js" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19_4.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_19_4.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_javax_ws_rs_api_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_javax_ws_rs_api_2_1.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_common_2_27.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_common_2_26.xml" />
+      <change beforePath="$PROJECT_DIR$/ target/reports/gettest/formatter.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ target/reports/gettest/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ target/reports/gettest/jquery-1.8.2.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ target/reports/gettest/report.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ target/reports/gettest/style.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_14_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_14_3.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/apie2e.iml" afterPath="$PROJECT_DIR$/apie2e.iml" />
       <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/karlin/testing/acceptance/test/GetTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/karlin/testing/acceptance/test/GetTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/karlin/testing/acceptance/test/glue/ClientFactory.java" afterPath="$PROJECT_DIR$/src/test/java/com/karlin/testing/acceptance/test/glue/ClientFactory.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/karlin/testing/acceptance/test/glue/steps/ClientSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/karlin/testing/acceptance/test/glue/steps/ClientSteps.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/karlin/testing/acceptance/test/GetTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/karlin/testing/acceptance/test/test/GetTest.java" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/gettestcase.feature" afterPath="$PROJECT_DIR$/src/test/resources/features/gettestcase.feature" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/AbstractResourceClient.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/GetClient.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/reports/getTest.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/applicationContext.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/karlin/testing/acceptance/test/GetTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/karlin/testing/acceptance/test/glue/Client.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/karlin/testing/acceptance/test/glue/ClientFactory.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/karlin/testing/acceptance/test/glue/ClientSpecification.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/karlin/testing/acceptance/test/glue/client/GetTestClient.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/karlin/testing/acceptance/test/glue/specs/GetClientSpecification.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/karlin/testing/acceptance/test/glue/steps/ClientSteps.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/gettestcase.feature" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/config.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/ApacheJMeter-4.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/BeanShellAssertion.bshrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/BeanShellFunction.bshrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/BeanShellListeners.bshrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/BeanShellSampler.bshrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/hc.parameters" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/jaas.conf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/jmeter.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/krb5.conf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/log4j2.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/README.TXT" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/content/css/dashboard.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/content/css/jquery-ui.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/content/css/jquery-ui.structure.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/content/css/jquery-ui.theme.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/content/css/legends.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/content/css/theme.blue.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/content/js/curvedLines.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/content/js/dashboard-commons.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/content/js/dashboard.js.fmkr" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/content/js/graph.js.fmkr" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/content/js/hashtable.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/content/js/jquery-ui.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/content/js/jquery.cookie.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/content/js/jquery.flot.stack.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/content/js/jquery.numberformatter-1.2.3.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/content/js/jquery.tablesorter.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/content/pages/OverTime.html.fmkr" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/content/pages/ResponseTimes.html.fmkr" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/content/pages/Throughput.html.fmkr" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/content/pages/icon-apache.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/index.html.fmkr" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/bootstrap/.bower.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/bootstrap/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/bootstrap/dist/css/bootstrap.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/bootstrap/dist/js/bootstrap.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/flot-axislabels/.bower.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/flot-axislabels/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/flot-axislabels/jquery.flot.axislabels.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/flot.tooltip/.bower.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/flot.tooltip/bower.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/flot.tooltip/js/excanvas.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/flot.tooltip/js/jquery.flot.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/flot.tooltip/js/jquery.flot.tooltip.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/flot.tooltip/js/jquery.flot.tooltip.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/flot.tooltip/js/jquery.flot.tooltip.source.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/flot/.bower.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/flot/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/flot/API.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/flot/CONTRIBUTING.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/flot/FAQ.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/flot/NEWS.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/flot/PLUGINS.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/flot/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/flot/component.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/flot/excanvas.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/flot/excanvas.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/flot/flot.jquery.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/flot/jquery.colorhelpers.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/flot/jquery.flot.canvas.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/flot/jquery.flot.categories.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/flot/jquery.flot.crosshair.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/flot/jquery.flot.errorbars.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/flot/jquery.flot.fillbetween.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/flot/jquery.flot.image.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/flot/jquery.flot.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/flot/jquery.flot.navigate.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/flot/jquery.flot.pie.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/flot/jquery.flot.resize.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/flot/jquery.flot.selection.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/flot/jquery.flot.stack.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/flot/jquery.flot.symbol.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/flot/jquery.flot.threshold.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/flot/jquery.flot.time.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/flot/jquery.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/flot/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/font-awesome/.bower.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/font-awesome/.npmignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/font-awesome/bower.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/font-awesome/css/font-awesome.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/font-awesome/css/font-awesome.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/font-awesome/fonts/FontAwesome.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/font-awesome/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/font-awesome/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/font-awesome/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/font-awesome/less/bordered-pulled.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/font-awesome/less/core.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/font-awesome/less/extras.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/font-awesome/less/fixed-width.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/font-awesome/less/font-awesome.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/font-awesome/less/icons.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/font-awesome/less/larger.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/font-awesome/less/list.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/font-awesome/less/mixins.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/font-awesome/less/path.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/font-awesome/less/rotated-flipped.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/font-awesome/less/spinning.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/font-awesome/less/stacked.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/font-awesome/less/variables.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/font-awesome/scss/_bordered-pulled.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/font-awesome/scss/_core.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/font-awesome/scss/_extras.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/font-awesome/scss/_fixed-width.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/font-awesome/scss/_icons.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/font-awesome/scss/_larger.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/font-awesome/scss/_list.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/font-awesome/scss/_mixins.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/font-awesome/scss/_path.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/font-awesome/scss/_rotated-flipped.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/font-awesome/scss/_spinning.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/font-awesome/scss/_stacked.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/font-awesome/scss/_variables.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/font-awesome/scss/font-awesome.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/jquery/.bower.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/jquery/bower.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/jquery/dist/jquery.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/jquery/dist/jquery.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/jquery/dist/jquery.min.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/metisMenu/.bower.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/metisMenu/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/metisMenu/dist/metisMenu.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/bower_components/metisMenu/dist/metisMenu.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/dist/css/dashboard.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/dist/css/jquery-ui.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/dist/css/jquery-ui.structure.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/dist/css/jquery-ui.theme.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/dist/css/legends.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/dist/css/sb-admin-2.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/dist/js/sb-admin-2.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/less/mixins.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/less/sb-admin-2.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/report-template/sbadmin2-1.0.7/less/variables.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/reportgenerator.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/saveservice.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/system.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/upgrade.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/bin/utility.groovy" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/accessors-smart-1.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/asm-6.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/bcmail-jdk15on-1.49.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/bcpkix-jdk15on-1.49.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/bcprov-jdk15on-1.49.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/bsf-2.4.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/bsh-2.0b6.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/caffeine-2.6.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/commons-codec-1.11.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/commons-collections-3.2.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/commons-dbcp2-2.2.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/commons-io-2.6.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/commons-jexl-2.1.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/commons-jexl3-3.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/commons-lang3-3.7.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/commons-math3-3.6.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/commons-net-3.6.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/commons-pool2-2.5.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/dec-0.1.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/dnsjava-2.1.8.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/ext/ApacheJMeter_components-4.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/ext/ApacheJMeter_core-4.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/ext/ApacheJMeter_ftp-4.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/ext/ApacheJMeter_functions-4.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/ext/ApacheJMeter_http-4.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/ext/ApacheJMeter_java-4.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/ext/ApacheJMeter_jdbc-4.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/ext/ApacheJMeter_jms-4.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/ext/ApacheJMeter_junit-4.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/ext/ApacheJMeter_ldap-4.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/ext/ApacheJMeter_mail-4.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/ext/ApacheJMeter_mongodb-4.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/ext/ApacheJMeter_native-4.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/ext/ApacheJMeter_tcp-4.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/freemarker-2.3.23.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/geronimo-jms_1.1_spec-1.1.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/groovy-all-2.4.13.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/httpasyncclient-4.1.3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/httpclient-4.5.5.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/httpcore-4.4.9.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/httpcore-nio-4.4.9.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/httpmime-4.5.5.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/jcharts-0.7.5.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/jcl-over-slf4j-1.7.25.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/jodd-core-4.1.4.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/jodd-lagarto-4.1.4.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/jodd-log-4.1.4.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/jodd-props-4.1.4.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/jorphan-4.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/json-path-2.4.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/json-smart-2.3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/jsoup-1.11.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/jtidy-r938.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/junit-4.12.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/log4j-1.2-api-2.10.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/log4j-api-2.10.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/log4j-core-2.10.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/log4j-slf4j-impl-2.10.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/mail-1.5.0-b01.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/mongo-java-driver-2.11.3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/oro-2.0.8.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/ph-commons-9.0.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/ph-css-6.0.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/rhino-1.7.7.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/rsyntaxtextarea-2.6.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/serializer-2.7.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/slf4j-api-1.7.25.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/slf4j-ext-1.7.25.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/tika-core-1.17.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/tika-parsers-1.17.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/xalan-2.7.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/xercesImpl-2.11.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/xml-apis-1.4.01.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/xmlgraphics-commons-2.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/xmlpull-1.1.3.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/xpp3_min-1.1.4c.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/lib/xstream-1.4.10.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,11 +249,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="protractor.conf.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/my-app/e2e/protractor.conf.js">
+      <file leaf-file-name="SmokeTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/karlin/testing/acceptance/test/test/SmokeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="33" lean-forward="false" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+            <state relative-caret-position="135">
+              <caret line="10" column="35" lean-forward="false" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -64,21 +262,74 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="243" column="0" lean-forward="false" selection-start-line="243" selection-start-column="0" selection-end-line="243" selection-end-column="0" />
+            <state relative-caret-position="282">
+              <caret line="190" column="48" lean-forward="false" selection-start-line="190" selection-start-column="48" selection-end-line="190" selection-end-column="48" />
               <folding>
-                <element signature="n#plugins#0;n#build#0;n#project#0;n#!!top" expanded="false" />
+                <element signature="n#build#0;n#project#0;n#!!top" expanded="false" />
                 <element signature="n#dependencies#0;n#project#0;n#!!top" expanded="false" />
+                <element signature="n#profile#2;n#profiles#0;n#project#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jenkinsfile" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jenkinsfile">
+      <file leaf-file-name="SmokeTestCase.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/SmokeTestCase.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            <state relative-caret-position="105">
+              <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GetTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/karlin/testing/acceptance/test/test/GetTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Get2Test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/karlin/testing/acceptance/test/test/Get2Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="59" lean-forward="false" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gettestcase.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/gettestcase.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="30" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="75" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gettestcase1.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/gettestcase1.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="55" lean-forward="false" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="overview-features.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/target/reports/cucumber-html-reports/overview-features.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -97,6 +348,9 @@
     <findStrings>
       <find>surefire</find>
       <find>package glue\;\n\nimport glue\.Specs\.GetClientSpecification\;\nimport glue\.client\.GetTestClient\;\n\npublic class ClientFactory \{\n\n\n    \/\/private String baseuri\;\n\n    private String baseuri \= \&quot;https\:\/\/jsonplaceholder\.typicode\.com\&quot;\;\n\n    public void setBaseUri\(ClientSpecification specification\) \{specification\.withBaseUri\(baseuri\)\;\}\n\n    public Client getClientFor\(ClientSpecification specification\) \{\n        setBaseUri\(specification\)\;\n\n        switch \(specification\.getPath\(\)\)\{\n            case \&quot;\/posts\&quot;\:\n            return new GetTestClient\(\(GetClientSpecification\) specification\)\;\n            default\:\n                throw new IllegalStateException\(\&quot;specification does not map to a client\&quot; \+ specification\)\;\n\n        \}\n\n\n\n        \}\n\n\n    \}\n\n\n\n\n\n\n</find>
+      <find>exe</find>
+      <find>inludesmvn</find>
+      <find>packa</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -139,16 +393,27 @@
         <option value="$PROJECT_DIR$/src/test/java/glue/Steps/ClientSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/GetTest.java" />
         <option value="$PROJECT_DIR$/src/test/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/karlin/testing/acceptance/test/GetTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/karlin/testing/acceptance/test/glue/ClientFactory.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/gettestcase.feature" />
         <option value="$PROJECT_DIR$/src/test/java/com/karlin/testing/acceptance/test/glue/steps/ClientSteps.java" />
         <option value="$PROJECT_DIR$/web/my-app/package.json" />
         <option value="$PROJECT_DIR$/web/my-app/e2e/src/app.po.ts" />
         <option value="$PROJECT_DIR$/web/my-app/e2e/src/app.e2e-spec.ts" />
         <option value="$PROJECT_DIR$/web/my-app/e2e/protractor.conf.js" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/jenkinsfile" />
+        <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/src/test/java/com/karlin/testing/acceptance/test/test/CustomAbstractTestNGCucumberTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/karlin/testing/acceptance/test/test/AcceptanceTestSuite.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/karlin/testing/acceptance/test/test/AcceptanceTags.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/karlin/testing/acceptance/test/test/SmokeTestSuite.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/karlin/testing/acceptance/test/GetTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/karlin/testing/acceptance/test/SmokeTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/karlin/testing/acceptance/test/test/GetTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/karlin/testing/acceptance/test/test/SmokeTest.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/gettestcase.feature" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/SmokeTestCase.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/com/karlin/testing/acceptance/test/test/Get2Test.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/gettestcase1.feature" />
       </list>
     </option>
   </component>
@@ -290,9 +555,8 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -303,12 +567,32 @@
             <path>
               <item name="apie2e" type="b2602c69:ProjectViewProjectNode" />
               <item name="apie2e" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apie2e" type="b2602c69:ProjectViewProjectNode" />
+              <item name="apie2e" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="reports" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apie2e" type="b2602c69:ProjectViewProjectNode" />
+              <item name="apie2e" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="reports" type="462c0819:PsiDirectoryNode" />
+              <item name="cucumber-html-reports" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apie2e" type="b2602c69:ProjectViewProjectNode" />
+              <item name="apie2e" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="surefire-reports" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -319,6 +603,9 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.karlin.testing.acceptance.test" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/performancetesting/src/test/jmeter" />
       <recent name="$PROJECT_DIR$/src/test" />
@@ -356,54 +643,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-    </configuration>
-    <configuration name="Scenario: As a user get the data" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="myFilePath" value="$PROJECT_DIR$/src/test/resources/features/gettestcase.feature" />
-      <option name="GLUE" value="glue" />
-      <option name="myNameFilter" value="^As a user get the data$" />
-      <option name="myGeneratedName" value="Scenario: As a user get the data" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^As a user get the data$&quot;" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="apie2e" />
-      <envs />
-    </configuration>
-    <configuration name="CukesRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="apie2e" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.CukesRunner" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -455,10 +694,10 @@
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
     </configuration>
-    <configuration name="GetTest (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AcceptanceTestSuite" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.karlin.testing.acceptance.test.*" />
+          <option name="PATTERN" value="com.karlin.testing.acceptance.test.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -466,8 +705,40 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.karlin.testing.acceptance.test" />
-      <option name="MAIN_CLASS_NAME" value="com.karlin.testing.acceptance.test.GetTest" />
+      <option name="PACKAGE_NAME" value="com.karlin.testing.acceptance.test.test" />
+      <option name="MAIN_CLASS_NAME" value="com.karlin.testing.acceptance.test.test.AcceptanceTestSuite" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="GetTest (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.karlin.testing.acceptance.test.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="apie2e" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.karlin.testing.acceptance.test.test" />
+      <option name="MAIN_CLASS_NAME" value="com.karlin.testing.acceptance.test.test.GetTest" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -519,10 +790,10 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="TestRunner" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GetTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="com.karlin.testing.acceptance.test.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -530,8 +801,72 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.TestRunner" />
+      <option name="PACKAGE_NAME" value="com.karlin.testing.acceptance.test" />
+      <option name="MAIN_CLASS_NAME" value="com.karlin.testing.acceptance.test.test.GetTest" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="SmokeTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.karlin.testing.acceptance.test.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="apie2e" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.karlin.testing.acceptance.test" />
+      <option name="MAIN_CLASS_NAME" value="com.karlin.testing.acceptance.test.test.SmokeTest" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="SmokeTestSuite" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.karlin.testing.acceptance.test.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="apie2e" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.karlin.testing.acceptance.test.test" />
+      <option name="MAIN_CLASS_NAME" value="com.karlin.testing.acceptance.test.test.SmokeTestSuite" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -586,19 +921,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Maven.Tomcat" />
-      <item index="1" class="java.lang.String" itemvalue="Cucumber java.Scenario: As a user get the data" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.CukesRunner" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.GetTest" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.TestRunner" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.GetTest" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.AcceptanceTestSuite" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.SmokeTest" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.SmokeTestSuite" />
       <item index="5" class="java.lang.String" itemvalue="TestNG.GetTest (1)" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="TestNG.GetTest (1)" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.GetTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CukesRunner" />
-        <item index="3" class="java.lang.String" itemvalue="Cucumber java.Scenario: As a user get the data" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.TestRunner" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.AcceptanceTestSuite" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.SmokeTest" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.SmokeTestSuite" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.GetTest" />
       </list>
     </recent_temporary>
   </component>
@@ -619,34 +954,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GetTest_(1) - 2018.06.19 at 07h 48m 02s.xml">
+    <history-entry file="AcceptanceTestSuite - 2018.10.21 at 20h 58m 49s.xml">
+      <configuration name="AcceptanceTestSuite" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AcceptanceTestSuite - 2018.10.21 at 21h 02m 04s.xml">
+      <configuration name="AcceptanceTestSuite" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AcceptanceTestSuite - 2018.10.21 at 21h 07m 44s.xml">
+      <configuration name="AcceptanceTestSuite" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AcceptanceTestSuite - 2018.10.21 at 21h 08m 07s.xml">
+      <configuration name="AcceptanceTestSuite" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AcceptanceTestSuite - 2018.10.21 at 21h 13m 00s.xml">
+      <configuration name="AcceptanceTestSuite" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GetTest_(1) - 2018.10.21 at 20h 56m 08s.xml">
       <configuration name="GetTest (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GetTest_(1) - 2018.06.19 at 07h 52m 52s.xml">
+    <history-entry file="GetTest_(1) - 2018.10.21 at 20h 56m 26s.xml">
       <configuration name="GetTest (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GetTest_(1) - 2018.06.19 at 07h 56m 16s.xml">
+    <history-entry file="GetTest_(1) - 2018.10.21 at 20h 56m 58s.xml">
       <configuration name="GetTest (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GetTest_(1) - 2018.06.19 at 07h 57m 25s.xml">
+    <history-entry file="GetTest_(1) - 2018.10.21 at 21h 02m 19s.xml">
       <configuration name="GetTest (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GetTest_(1) - 2018.06.19 at 07h 57m 49s.xml">
-      <configuration name="GetTest (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GetTest_(1) - 2018.06.19 at 07h 58m 10s.xml">
-      <configuration name="GetTest (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GetTest_(1) - 2018.06.19 at 07h 59m 31s.xml">
-      <configuration name="GetTest (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GetTest_(1) - 2018.06.19 at 08h 01m 22s.xml">
-      <configuration name="GetTest (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GetTest_(1) - 2018.06.19 at 08h 02m 08s.xml">
-      <configuration name="GetTest (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GetTest_(1) - 2018.06.20 at 07h 27m 08s.xml">
+    <history-entry file="GetTest_(1) - 2018.10.21 at 21h 13m 08s.xml">
       <configuration name="GetTest (1)" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -664,19 +999,20 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2905983" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16237482" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32621083" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16237482" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52136755" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32621083" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32621083" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26466382" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30329043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.06723891" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31196582" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -685,7 +1021,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2905983" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -718,18 +1053,15 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/karlin/testing/acceptance/test/GetTest.java</url>
-          <line>14</line>
-          <properties />
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-testng/1.2.5/cucumber-testng-1.2.5.jar!/cucumber/api/testng/AbstractTestNGCucumberTests.class</url>
           <line>27</line>
@@ -793,7 +1125,7 @@
           <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="23" />
+      <option name="time" value="24" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -802,104 +1134,14 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/gettestcase.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="27" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/karlin/testing/acceptance/test/glue/ClientSpecification.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/karlin/testing/acceptance/test/glue/steps/ClientSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="34" column="23" lean-forward="false" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/karlin/testing/acceptance/test/glue/ClientFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/TestRunner.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="52" column="42" lean-forward="true" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
-          <folding>
-            <element signature="n#plugins#0;n#build#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#dependencies#0;n#project#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/karlin/testing/acceptance/test/GetTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="64" lean-forward="false" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/karlin/testing/acceptance/test/glue/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/client/GetClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/karlin/testing/acceptance/test/glue/client/GetTestClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/karlin/testing/acceptance/test/glue/specs/GetClientSpecification.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/client/AbstractResourceClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/karlin/testing/acceptance/test/glue/ClientFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="30" column="34" lean-forward="false" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
           <folding>
-            <element signature="n#plugins#0;n#build#0;n#project#0;n#!!top" expanded="false" />
+            <element signature="n#build#0;n#project#0;n#!!top" expanded="false" />
             <element signature="n#dependencies#0;n#project#0;n#!!top" expanded="false" />
+            <element signature="n#profile#2;n#profiles#0;n#project#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -924,36 +1166,16 @@
         <state relative-caret-position="461">
           <caret line="72" column="30" lean-forward="false" selection-start-line="72" selection-start-column="30" selection-end-line="72" selection-end-column="30" />
           <folding>
-            <element signature="n#plugins#0;n#build#0;n#project#0;n#!!top" expanded="false" />
+            <element signature="n#build#0;n#project#0;n#!!top" expanded="false" />
             <element signature="n#dependencies#0;n#project#0;n#!!top" expanded="false" />
+            <element signature="n#profile#2;n#profiles#0;n#project#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml___jb_tmp___" />
-    <entry file="file://$PROJECT_DIR$/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apie2e.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test/TestRunner.java" />
-    <entry file="file://$PROJECT_DIR$/ target/reports/gettest/formatter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-252">
-          <caret line="43" column="9" lean-forward="false" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ target/reports/gettest/formatter.js" />
     <entry file="file://$PROJECT_DIR$/src/test/java/test/CukesRunner.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/karlin/testing/acceptance/test/glue/Client.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -962,24 +1184,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="76" lean-forward="false" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/javax/ws/rs/jsr311-api/1.1.1/jsr311-api-1.1.1-sources.jar!/javax/ws/rs/core/Response.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="39" column="22" lean-forward="false" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/client/GetClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1004,14 +1212,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/karlin/testing/acceptance/test/GetTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/karlin/testing/acceptance/test/glue/ClientSpecification.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -1025,13 +1225,6 @@
         <state relative-caret-position="89">
           <caret line="16" column="47" lean-forward="true" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/gettestcase.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="63" lean-forward="false" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
         </state>
       </provider>
     </entry>
@@ -1071,14 +1264,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/my-app/e2e/protractor.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="33" lean-forward="false" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/my-app/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
@@ -1086,21 +1271,166 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/apie2e.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="243" column="0" lean-forward="false" selection-start-line="243" selection-start-column="0" selection-end-line="243" selection-end-column="0" />
-          <folding>
-            <element signature="n#plugins#0;n#build#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#dependencies#0;n#project#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jenkinsfile">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/GetClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/my-app/e2e/protractor.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="33" lean-forward="false" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/reports/AcceptanceTestSuite.json" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/util/function/Predicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="48" column="12" lean-forward="false" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="76" lean-forward="false" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/karlin/testing/acceptance/test/test/AcceptanceTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-314">
+          <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/karlin/testing/acceptance/test/test/AbstractTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/karlin/testing/acceptance/test/test/AcceptanceTags.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/karlin/testing/acceptance/test/test/SmokeTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/karlin/testing/acceptance/test/test/CustomAbstractTestNGCucumberTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="28" column="23" lean-forward="false" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/SmokeTestCase.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/gettestcase.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="30" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/karlin/testing/acceptance/test/test/GetTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/karlin/testing/acceptance/test/test/SmokeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <caret line="10" column="35" lean-forward="false" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/karlin/testing/acceptance/test/test/Get2Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="59" lean-forward="false" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="190" column="48" lean-forward="false" selection-start-line="190" selection-start-column="48" selection-end-line="190" selection-end-column="48" />
+          <folding>
+            <element signature="n#build#0;n#project#0;n#!!top" expanded="false" />
+            <element signature="n#dependencies#0;n#project#0;n#!!top" expanded="false" />
+            <element signature="n#profile#2;n#profiles#0;n#project#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/gettestcase1.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="55" lean-forward="false" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/reports/cucumber-html-reports/overview-features.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

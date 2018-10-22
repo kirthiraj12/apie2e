@@ -3,43 +3,45 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
     <groupId>groupId</groupId>
     <artifactId>apie2e</artifactId>
-    <packaging>pom</packaging>
+    <packaging>jar</packaging>
     <version>1.0-SNAPSHOT</version>
 
+        <properties>
+        <acceptance.groups>cucumber</acceptance.groups>
+        <surefire.version>2.20.1</surefire.version>
+        </properties>
 
-     <build>
+    <build>
         <plugins>
-
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.20.1</version>
-                <configuration>
-                    <suiteXmlFiles>
-                        <suiteXmlFile>testng.xml</suiteXmlFile>
-                    </suiteXmlFiles>
-                </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-report-plugin</artifactId>
-                <version>2.20.1</version>
-            </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>1.7</source>
-                    <target>1.7</target>
+                    <source>1.8</source>
+                    <target>1.8</target>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>${surefire.version}</version>
+
+                <configuration>
+                    <!-- <testClassesDirectory>s360UIAutomationCC/src/main/java</testClassesDirectory> -->
+                    <testSourceDirectory>src/java/test/com/karlin/testing/acceptance/test/test</testSourceDirectory>
+                    <!--includes> <include>**/*RunCukesTest.java</include> </includes> -->
+                    <!-- <excludes> <exclude>**/*RunCukesTest.java</exclude> </excludes> -->
+                </configuration>
+
+            </plugin>
+
         </plugins>
+
     </build>
 
-      <dependencies>
+     <dependencies>
 
           <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin -->
           <dependency>
@@ -120,11 +122,7 @@
               <version>2.26</version>
           </dependency>
 
-          <dependency>
-              <groupId>org.testng</groupId>
-              <artifactId>testng</artifactId>
-              <version>6.14.2</version>
-          </dependency>
+
 
         <dependency>
             <groupId>junit</groupId>
@@ -138,6 +136,12 @@
               <version>2.8.8</version>
               <scope>test</scope>
           </dependency>
+         <dependency>
+             <groupId>org.testng</groupId>
+             <artifactId>testng</artifactId>
+             <version>6.14.3</version>
+             <scope>test</scope>
+         </dependency>
 
       </dependencies>
 
@@ -146,8 +150,26 @@
     <profiles>
         <profile>
             <id>acceptance-profile</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
             <build>
                 <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-compiler-plugin</artifactId>
+                        <configuration>
+                            <source>1.8</source>
+                            <target>1.8</target>
+                        </configuration>
+                    </plugin>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-surefire-plugin</artifactId>
+                        <version>${surefire.version}</version>
+
+
+                    </plugin>
                     <plugin>
                         <groupId>net.masterthought</groupId>
                         <artifactId>maven-cucumber-reporting</artifactId>
@@ -160,10 +182,12 @@
                                     <goal>generate</goal>
                                 </goals>
                                 <configuration>
-                                    <projectName>Data-Exchange</projectName>
+                                    <projectName>apie2e</projectName>
                                     <outputDirectory>${project.build.directory}/reports</outputDirectory>
                                     <jsonFiles>
-                                        <param>${project.build.directory}/reports/AcceptanceTestSuite.json</param>
+                                        <param>${project.build.directory}/reports/getTest.json</param>
+                                        <param>${project.build.directory}/reports/getTest1.json</param>
+
                                     </jsonFiles>
                                     <parallelTesting>false</parallelTesting>
                                 </configuration>
@@ -172,11 +196,29 @@
                     </plugin>
                 </plugins>
             </build>
+
         </profile>
+
         <profile>
             <id>smoke-profile</id>
+
             <build>
                 <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-compiler-plugin</artifactId>
+                        <configuration>
+                            <source>1.8</source>
+                            <target>1.8</target>
+                        </configuration>
+                    </plugin>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-surefire-plugin</artifactId>
+                        <version>${surefire.version}</version>
+
+
+                    </plugin>
                     <plugin>
                         <groupId>net.masterthought</groupId>
                         <artifactId>maven-cucumber-reporting</artifactId>
@@ -189,10 +231,11 @@
                                     <goal>generate</goal>
                                 </goals>
                                 <configuration>
-                                    <projectName>Data-Exchange</projectName>
+                                    <projectName>apie2e</projectName>
                                     <outputDirectory>${project.build.directory}/reports</outputDirectory>
                                     <jsonFiles>
-                                        <param>${project.build.directory}/reports/SmokeTestSuite.json</param>
+                                        <param>${project.build.directory}/reports/smokeTest.json</param>
+
                                     </jsonFiles>
                                     <parallelTesting>false</parallelTesting>
                                 </configuration>
@@ -201,7 +244,11 @@
                     </plugin>
                 </plugins>
             </build>
+
         </profile>
+
+
+
         <profile>
             <id>perf-profile</id>
             <build>
