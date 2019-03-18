@@ -1,5 +1,5 @@
-@acpttest
-Feature: get request cucumber test acceptest
+@smoke
+Feature: get request cucumber test for smoke
 
   Scenario: As a user get the data
     Given an accept type of "application/json"

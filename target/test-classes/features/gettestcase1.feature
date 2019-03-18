@@ -1,5 +1,5 @@
 @acpttest
-Feature: get request cucumber test acceptest
+Feature: get request cucumber test acceptest2
 
   Scenario: As a user get the data
     Given an accept type of "application/json"

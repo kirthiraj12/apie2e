@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "result">an accept type of &quot;application&#x2F;json&quot; (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">the user makes the request to get &quot;&#x2F;posts&quot; get endpoint (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">API should return &quot;200&quot; response (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">the API should return a &quot;application&#x2F;json;charset=utf-8&quot; media type (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">an accept type of &quot;application&#x2F;json&quot; (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">the user makes the request to get &quot;&#x2F;posts&quot; get endpoint (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">API should return &quot;200&quot; response (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">the API should return a &quot;application&#x2F;json;charset=utf-8&quot; media type (PASSED : 0s)</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="1715" started-at="2019-03-18T03:32:44Z" finished-at="2019-03-18T03:32:46Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.karlin.testing.acceptance.test.test.CustomAbstractTestNGCucumberTests@6d00a15d]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.karlin.testing.acceptance.test.test.Get2Test@51efea79]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.karlin.testing.acceptance.test.test.GetTest@36d4b5c]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.karlin.testing.acceptance.test.test.SmokeTest@2ef5e5e3]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Surefire test" duration-ms="1715" started-at="2019-03-18T03:32:44Z" finished-at="2019-03-18T03:32:46Z">
+      <class name="com.karlin.testing.acceptance.test.test.Get2Test">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.karlin.testing.acceptance.test.test.Get2Test@51efea79]" name="setUpClass" is-config="true" duration-ms="11" started-at="2019-03-18T03:32:46Z" finished-at="2019-03-18T03:32:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.karlin.testing.acceptance.test.test.Get2Test@51efea79]" name="runScenario" duration-ms="153" started-at="2019-03-18T03:32:46Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-03-18T03:32:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["As a user get the data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["get request cucumber test acceptest2"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">an accept type of &quot;application&#x2F;json&quot; (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">the user makes the request to get &quot;&#x2F;posts&quot; get endpoint (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">API should return &quot;200&quot; response (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">the API should return a &quot;application&#x2F;json;charset=utf-8&quot; media type (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.karlin.testing.acceptance.test.test.Get2Test@51efea79]" name="tearDownClass" is-config="true" duration-ms="5" started-at="2019-03-18T03:32:46Z" finished-at="2019-03-18T03:32:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.karlin.testing.acceptance.test.test.Get2Test -->
+      <class name="com.karlin.testing.acceptance.test.test.SmokeTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.karlin.testing.acceptance.test.test.SmokeTest@2ef5e5e3]" name="setUpClass" is-config="true" duration-ms="167" started-at="2019-03-18T03:32:44Z" finished-at="2019-03-18T03:32:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.karlin.testing.acceptance.test.test.SmokeTest@2ef5e5e3]" name="tearDownClass" is-config="true" duration-ms="6" started-at="2019-03-18T03:32:45Z" finished-at="2019-03-18T03:32:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.karlin.testing.acceptance.test.test.SmokeTest -->
+      <class name="com.karlin.testing.acceptance.test.test.CustomAbstractTestNGCucumberTests">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.karlin.testing.acceptance.test.test.CustomAbstractTestNGCucumberTests@6d00a15d]" name="setUpClass" is-config="true" duration-ms="11" started-at="2019-03-18T03:32:46Z" finished-at="2019-03-18T03:32:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="prepareTestScenarioNames()[pri:0, instance:com.karlin.testing.acceptance.test.test.CustomAbstractTestNGCucumberTests@6d00a15d]" name="prepareTestScenarioNames" is-config="true" duration-ms="2" started-at="2019-03-18T03:32:46Z" finished-at="2019-03-18T03:32:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareTestScenarioNames -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.karlin.testing.acceptance.test.test.CustomAbstractTestNGCucumberTests@6d00a15d]" name="tearDownClass" is-config="true" duration-ms="2" started-at="2019-03-18T03:32:46Z" finished-at="2019-03-18T03:32:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.karlin.testing.acceptance.test.test.CustomAbstractTestNGCucumberTests -->
+      <class name="com.karlin.testing.acceptance.test.test.GetTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.karlin.testing.acceptance.test.test.GetTest@36d4b5c]" name="setUpClass" is-config="true" duration-ms="8" started-at="2019-03-18T03:32:45Z" finished-at="2019-03-18T03:32:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.karlin.testing.acceptance.test.test.GetTest@36d4b5c]" name="runScenario" duration-ms="1283" started-at="2019-03-18T03:32:45Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-03-18T03:32:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["As a user get the data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["get request cucumber test acceptest"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">an accept type of &quot;application&#x2F;json&quot; (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">the user makes the request to get &quot;&#x2F;posts&quot; get endpoint (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">API should return &quot;200&quot; response (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">the API should return a &quot;application&#x2F;json;charset=utf-8&quot; media type (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.karlin.testing.acceptance.test.test.GetTest@36d4b5c]" name="tearDownClass" is-config="true" duration-ms="11" started-at="2019-03-18T03:32:46Z" finished-at="2019-03-18T03:32:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.karlin.testing.acceptance.test.test.GetTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

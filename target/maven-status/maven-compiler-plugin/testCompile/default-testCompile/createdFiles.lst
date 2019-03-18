@@ -1,0 +1,14 @@
+com/karlin/testing/acceptance/test/test/CustomAbstractTestNGCucumberTests.class
+com/karlin/testing/acceptance/test/test/AbstractTestSuite.class
+com/karlin/testing/acceptance/test/glue/steps/ClientSteps.class
+com/karlin/testing/acceptance/test/test/AcceptanceTags.class
+com/karlin/testing/acceptance/test/glue/ClientSpecification.class
+com/karlin/testing/acceptance/test/glue/Client.class
+com/karlin/testing/acceptance/test/test/Get2Test.class
+com/karlin/testing/acceptance/test/test/SmokeTest.class
+com/karlin/testing/acceptance/test/test/SmokeTestSuite.class
+com/karlin/testing/acceptance/test/test/AcceptanceTestSuite.class
+com/karlin/testing/acceptance/test/glue/specs/GetClientSpecification.class
+com/karlin/testing/acceptance/test/test/GetTest.class
+com/karlin/testing/acceptance/test/glue/ClientFactory.class
+com/karlin/testing/acceptance/test/glue/client/GetTestClient.class
