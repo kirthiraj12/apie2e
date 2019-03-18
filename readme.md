@@ -12,3 +12,11 @@ selenium-cucumber is a behavior driven development (BDD) approach
 
  https://github.com/selenium-cucumber/selenium-cucumber-java-maven-example
 
+mvn -DJmeterTestFile=Jmeter-Maven-Sample -DRampUp=40 -DLoopcount=20 -DThreadcount=30 verify
+
+mvn -P acceptance-profile clean install
+
+mvn -Dtest=SmokeTestSuite clean install -DfailNoTests=false -P acceptance-profile clean install
+
+mvn --Dcucumber.options="--tags@smoke" -P acceptance-profile clean install
+
